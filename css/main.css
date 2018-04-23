@@ -8,6 +8,7 @@ h1 {
 }
 h2 {
     font-size: 30px;
+    margin-bottom: 0;
 }
 h3 {
     font-size: 22px;
@@ -24,7 +25,6 @@ body, html, main {
 * 
 */
 header {
-    height: 15%;
     display: block;
     margin: auto;
     padding-bottom: 10px;
@@ -73,9 +73,6 @@ header {
     height: 100%;
     padding-top: 30px;
 }
-.item-image {
-    max-height: 80%;
-}
 .title {
     width: 100%;
     text-align: center;
@@ -85,11 +82,16 @@ img {
     max-height: 100%;
     min-width: 100%;
     border-radius: 10px;
+    height: 100%;
+}
+p {
+    font-size: 22px;
+    margin-top: 0;
+    padding-top: 10px;
 }
 a {
     text-decoration: none;
     color: #734B5E;
-}
-a :visited {
-    color: none;
+    height: 90%;
+    width: 100%;
 }
